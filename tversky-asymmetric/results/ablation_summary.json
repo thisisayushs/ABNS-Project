@@ -1,0 +1,98 @@
+{
+  "gamma0.0_lambda0.0": {
+    "gamma": 0.0,
+    "lambda": 0.0,
+    "best_val_acc": 0.861,
+    "best_val_epoch": 15,
+    "final_train_acc": 0.9183162393162393,
+    "final_asym_ratio": 0.0
+  },
+  "gamma0.0_lambda0.1": {
+    "gamma": 0.0,
+    "lambda": 0.1,
+    "best_val_acc": 0.861,
+    "best_val_epoch": 15,
+    "final_train_acc": 0.9183162393162393,
+    "final_asym_ratio": 0.0
+  },
+  "gamma0.0_lambda1.0": {
+    "gamma": 0.0,
+    "lambda": 1.0,
+    "best_val_acc": 0.861,
+    "best_val_epoch": 15,
+    "final_train_acc": 0.9183162393162393,
+    "final_asym_ratio": 0.0
+  },
+  "gamma0.5_lambda0.0": {
+    "gamma": 0.5,
+    "lambda": 0.0,
+    "best_val_acc": 0.8588461538461538,
+    "best_val_epoch": 15,
+    "final_train_acc": 0.9057264957264958,
+    "final_asym_ratio": 0.34438849428700063
+  },
+  "gamma0.5_lambda0.1": {
+    "gamma": 0.5,
+    "lambda": 0.1,
+    "best_val_acc": 0.8582307692307692,
+    "best_val_epoch": 15,
+    "final_train_acc": 0.9056923076923077,
+    "final_asym_ratio": 0.3521937386519015
+  },
+  "gamma0.5_lambda1.0": {
+    "gamma": 0.5,
+    "lambda": 1.0,
+    "best_val_acc": 0.8579230769230769,
+    "best_val_epoch": 15,
+    "final_train_acc": 0.9055982905982906,
+    "final_asym_ratio": 0.36246371908469976
+  },
+  "gamma1.0_lambda0.0": {
+    "gamma": 1.0,
+    "lambda": 0.0,
+    "best_val_acc": 0.8577692307692307,
+    "best_val_epoch": 18,
+    "final_train_acc": 0.904,
+    "final_asym_ratio": 0.9056074493097108
+  },
+  "gamma1.0_lambda0.1": {
+    "gamma": 1.0,
+    "lambda": 0.1,
+    "best_val_acc": 0.8583846153846154,
+    "best_val_epoch": 18,
+    "final_train_acc": 0.9038461538461539,
+    "final_asym_ratio": 0.9055736730170157
+  },
+  "gamma1.0_lambda1.0": {
+    "gamma": 1.0,
+    "lambda": 1.0,
+    "best_val_acc": 0.8580769230769231,
+    "best_val_epoch": 18,
+    "final_train_acc": 0.9037179487179487,
+    "final_asym_ratio": 0.9017266883456095
+  },
+  "gamma2.0_lambda0.0": {
+    "gamma": 2.0,
+    "lambda": 0.0,
+    "best_val_acc": 0.8561538461538462,
+    "best_val_epoch": 2,
+    "final_train_acc": 0.9089487179487179,
+    "final_asym_ratio": 2.029571460379056
+  },
+  "gamma2.0_lambda0.1": {
+    "gamma": 2.0,
+    "lambda": 0.1,
+    "best_val_acc": 0.8565384615384616,
+    "best_val_epoch": 2,
+    "final_train_acc": 0.9090683760683761,
+    "final_asym_ratio": 2.029026713531172
+  },
+  "gamma2.0_lambda1.0": {
+    "gamma": 2.0,
+    "lambda": 1.0,
+    "best_val_acc": 0.8570769230769231,
+    "best_val_epoch": 2,
+    "final_train_acc": 0.9086752136752136,
+    "final_asym_ratio": 2.012794353702408
+  }
+}
