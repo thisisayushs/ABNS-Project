@@ -1,0 +1,21 @@
+{
+  "logit_space_centered": {
+    "pearson": 0.8570311069488525,
+    "spearman": 0.8210358503853137,
+    "note": "mean-centered to remove constant offset in Tversky logits"
+  },
+  "logit_space_raw_cosine": {
+    "spearman": 0.7243610754300505,
+    "note": "ARTIFACT: Tversky logits cosine-degenerate (~1.0), do not use"
+  },
+  "internal_space": {
+    "pearson": 0.7692805528640747,
+    "spearman": 0.695886424870894
+  },
+  "calibration": {
+    "asym_internal_vs_raw": 0.5015157013044657,
+    "tversky_internal_vs_raw": 0.6247206609941177
+  },
+  "n_images": 100,
+  "seed": 42
+}
