@@ -1,4 +1,4 @@
-# tversky-asymmetric
+# Learning Prototypes Under Asymmetric Similarity: Centrality and Stability in Bilinear Classifiers
 
 Isolating the two innovations of the Tversky projection layer — asymmetric similarity and feature-set decomposition — to see which one actually drives its reported gains.
 
