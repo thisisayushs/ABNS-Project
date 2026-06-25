@@ -51,8 +51,7 @@ tversky-asymmetric/
 ├── notebooks/       # the experiment pipeline, run in order
 ├── src/             # reusable code (dataset, models, training)
 ├── checkpoints/     # trained classification heads (.pt)
-├── results/         # figures and metrics
-└── report/          # the write-up (LaTeX + PDF)
+└── results/         # figures and metrics
 ```
 
 | Notebook | Purpose |
@@ -98,17 +97,6 @@ Preprocessing is the standard `Resize(256) → CenterCrop(224) → Normalize` pi
 ## Reproducing the results
 
 Run the notebooks in order. `02` caches embeddings to `embeddings/` so the later notebooks train on stored vectors rather than re-running the backbone. The train/validation split is stratified with a fixed seed, so the partition is identical across all runs; the official `val.X` is held out and used only for final evaluation.
-
-## The write-up
-
-The full report is in `report/`. It is a NeurIPS-style paper covering the method, the model comparison, the ablations, and the three representational analyses, with a code appendix. Build it with:
-
-```bash
-cd report
-pdflatex report.tex && bibtex report && pdflatex report.tex && pdflatex report.tex
-```
-
-(`report.tex` needs `references.bib`, `neuripsish.sty`, and the `figures/` directory alongside it.)
 
 ## References
 
